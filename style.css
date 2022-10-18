@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap');
+
+.page {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.hade_1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 83.52%;
+    letter-spacing: 0.015em;
+    color: #A39F9F;
+    margin: 0%;
+}
+.hade_2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 83.52%;
+    letter-spacing: 0.015em;
+    color: #585757;
+    padding-bottom: 12px;
+
+}
+.appstore {
+   width: 60%; 
+   margin: 0;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130.02%;
+    padding: 0%;
+}
+
+.store_button {
+    padding-bottom: 12px;
+}
+
+.g_img {
+    width: 50%;
+}
+
+.number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 130.02%;
+    color: #989898;
+}
+
+.colortext {
+    color: #C88686;;
+}
