@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap');
 
+body {
+    width: 100%;
+}
+
 .page {
     width: 90%;
     margin-left: auto;
@@ -30,7 +34,10 @@
 }
 .appstore {
    width: 60%; 
-   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
 }
 
 .text {
@@ -42,8 +49,10 @@
     padding: 0%;
 }
 
-.store_button {
-    padding-bottom: 12px;
+.store_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items:center
 }
 
 .g_img {
@@ -61,4 +70,26 @@
 
 .colortext {
     color: #C88686;;
+}
+
+.numb_d {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .page {
+        width: 60%;
+    }
+
+    .store_buttons {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
